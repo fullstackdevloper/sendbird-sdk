@@ -5,9 +5,9 @@ import './App.css'
 
 function SampleApp() {
   const [hasSession, setHasSession] = useState(false)
-  const [appId, setAppId] = useState("A5265267-3D06-4FD6-9A25-26E3C0106390");
-  const [userId, setUserId] = useState("sendbird_desk_agent_id_2e69844b-5fcd-4526-8b9d-f5ab2791042b");
-  const [accessToken, setAccessToken] = useState("c07eded8ce5f5d25687d2a5f47284710e13f6c76");
+  const [appId, setAppId] = useState("");
+  const [userId, setUserId] = useState("");
+  const [accessToken, setAccessToken] = useState("");
 
 
   return (
